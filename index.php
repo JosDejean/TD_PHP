@@ -6,6 +6,7 @@
 <body>
 
 <?php include_once ('create_account.php'); ?>
+<?php include_once ('phoenix1.php');?>
 
 </body>
 
