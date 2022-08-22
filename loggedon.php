@@ -25,9 +25,9 @@ $loggedusers = $loggin->fetchAll();
 
 try {
     if (!empty($loggedusers)) {
-        $veriflog == true;
+        $veriflog = true;
     } else {
-        $veriflog == false;
+        $veriflog = false;
     }
 
 }
