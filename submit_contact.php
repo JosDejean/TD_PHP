@@ -29,7 +29,16 @@ $message = $postData['message'];
 <body>
 <div class="container">
 
+
+
     <?php include_once('header.php'); ?>
+
+    <?php
+    $retour = mail('destinataire@free.fr', 'Envoi depuis la page Contact', $_POST['message'], 'From: webmaster@monsite.fr');
+    if ($retour);
+
+
+
     <h1>Merci <?php $email ?> message bien reçu !</h1>
 
     <div class="card">
